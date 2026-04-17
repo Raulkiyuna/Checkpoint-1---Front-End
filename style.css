@@ -68,3 +68,19 @@ img.metade {
 .texto {
     flex: 1;
 }
+
+.galeria {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 20px 100px;
+}
+
+img.fotos-flex {
+    flex: 1;
+    max-width: 20%;
+    height: 250px;
+    border-radius: 50px;
+    margin-left: 35px;
+}
+
