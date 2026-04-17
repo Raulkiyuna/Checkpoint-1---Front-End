@@ -2,12 +2,14 @@ body {
     background-color: #ffffff;
     margin: 0;
     padding: 0;
+    import 'package:google_fonts/google_fonts.dart';
+    import 'package:google_fonts/google_fonts.dart';
 }
 
 header.titulo {
     width: 100%;
     background-color: #064661;
-    padding: 40px 0;
+    padding: 32px 0;
 }
 
 header.banner {
@@ -22,33 +24,38 @@ img.banner {
 
 h1.checkpoint  {
     color: #ffffff;
-    font-size: 40px;
+    font-size: 32px;
     margin: 0 0 0 80px;
+    font-family: limelight; 
 }
 
 h1.titulo {
     color: #064661;
-    font-size: 40px;
+    font-size: 32px;
     margin: 50px 0 50px 100px;
+    font-family: limelight;
 }
 
 h1.titulo-compacto {
     color: #064661;
-    font-size: 40px;
+    font-size: 32px;
     margin: 50px 0 30px 100px;
+    font-family: limelight;
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 100px;
+    font-family: poppins;
 }
 
 p.metade {
     margin-left: 0;
     margin-right: 0;
-    margin-bottom: 20px;
-    font-size: 20px;
+    margin-bottom: 40px;
+    font-size: 18px;
     line-height: 1.6;
+    font-family: poppins;
 }
 
 img.metade {
@@ -93,9 +100,75 @@ header.rodape {
 
 p.rodape {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 100px;
     text-align: center;
     margin-right: 100px;
     font-weight: bold;
+    font-family: poppins;
+}
+
+h2.texto-caixa1e3{
+    size: 20px;
+    padding-left: 20px;
+    font-family: "limelight";
+}
+
+h2.texto-caixa2{
+    size: 20px;
+    padding-left: 20px;
+    color: #ffffff;
+    font-family: "limelight";
+}
+
+h3.texto-caixa1e3{
+    size: 18px;
+    padding-left: 20px;
+    font-family:"Poppins";
+}
+
+h3.texto-caixa2{
+    size: 18px;
+    padding-left: 20px;
+    font-family:"Poppins";
+    color:#ffffff
+}
+
+.caixa1{background:#99BEDF;}
+.caixa2{background: #064661B2}
+.caixa3{background: #99BEDF;}
+
+.container1{
+    width: 1142px;
+    height: 259px;
+    border-radius: 10px;
+}
+
+.caixa{
+    width: 357px;
+    height: 167px;
+    border-radius: 10px;
+    border: 3px solid #064661;
+    margin: 20px;
+}
+
+.container1{
+    display: flex;
+}
+.container2{
+    display: flex;
+}
+
+#modelo1{
+    flex-direction: row;
+    align-items: center;
+    padding-left: 70px;
+    border:3px;
+    border-color: #064661;
+}
+
+#modelo2{
+    flex-direction: row;
+    align-items: center;
+    padding-left: 70px;
 }
